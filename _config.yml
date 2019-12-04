@@ -1,5 +1,10 @@
 title: "Site title" # _data/site-text.yml
 description: "Site description" # _data/site-text.yml
+
+url:  # hostname & protocol of the site
+baseurl: # subpath of the site
+repository: # GitHub username/repository
+
 email: "webmaster@wgdd.org"
 locales:
   - en
@@ -14,16 +19,19 @@ defaults:
       path: ""
     values:
       lang: "en"
+      locale: "en-US"
       layout: default
       permalink: /:path/:basename/
   - scope:
       path: "de"
     values:
       lang: "de"
+      locale: "de-DE"
   - scope:
       path: "it"
     values:
       lang: "it"
+      locale: "it-IT"
   - scope:
       path: ""
       type: posts
