@@ -1,0 +1,25 @@
+title: "Site title"
+email: "webmaster@wgdd.org"
+
+markdown: kramdown
+
+defaults:
+  #languages
+  - scope:
+      path: ""
+    values:
+      lang: "en"
+      layout: default
+  - scope:
+      path: "de"
+    values:
+      lang: "de"
+  - scope:
+      path: "it"
+    values:
+      lang: "it"
+
+plugins:
+  #- plugins
+
+# vim: set tw=79 ts=2 sw=2 ai si et:
