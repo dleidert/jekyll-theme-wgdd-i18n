@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | slice: 0,2 | default: 'en' }}">
   <head>
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
-  <body>
-	  {{ content }}
-  </body>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}">
+
+    {% include masthead.html %}
+
+    <div class="initial-content">
+      <main>
+        {{ content }}
+      </main>
+    </div>
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer.html %}
+        {% include footer/custom.html %}
+      </footer>
+    </div>
 </html>
 
-<!-- vim: set tw=79 ts=2 sw=2 ai si et: -->
+{%- comment %} vim: set tw=79 ts=2 sw=2 ai si et: {% endcomment -%}
