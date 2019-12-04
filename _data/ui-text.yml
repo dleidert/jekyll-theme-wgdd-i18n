@@ -1,0 +1,40 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  page                       : "Page"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# German / Deutsch
+# ----------------
+de: &DEFAULT_DE
+  page                       : "Seite"
+de-DE:
+  <<: *DEFAULT_DE
+de-AT:
+  <<: *DEFAULT_DE
+de-CH:
+  <<: *DEFAULT_DE
+de-BE:
+  <<: *DEFAULT_DE
+de-LI:
+  <<: *DEFAULT_DE
+de-LU:
+  <<: *DEFAULT_DE
+
+# Italian
+# -------
+it: &DEFAULT_IT
+  page                       : "Pagina"
+it-IT:
+  <<: *DEFAULT_IT
+
+# vim: set tw=79 ts=2 sw=2 ai si et:

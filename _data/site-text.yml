@@ -1,0 +1,49 @@
+# Site title and description
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  title: >-
+    This is the english site's title.
+  subtitle: >-
+    This is the english site's subtitle.
+  description: >-
+    This is the english site's description.
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# German / Deutsch
+# ----------------
+de: &DEFAULT_DE
+  title: >-
+    Das ist der deutsche Titel.
+  subtitle: >-
+    Das ist der deutsche Untertitel.
+  description: >-
+    Das ist die deutsche Beschreibung der Seite.
+de-DE:
+  <<: *DEFAULT_DE
+de-AT:
+  <<: *DEFAULT_DE
+de-CH:
+  <<: *DEFAULT_DE
+de-BE:
+  <<: *DEFAULT_DE
+de-LI:
+  <<: *DEFAULT_DE
+de-LU:
+  <<: *DEFAULT_DE
+
+# Italian
+# -------
+it: &DEFAULT_IT
+it-IT:
+  <<: *DEFAULT_IT
+
+# vim: set tw=79 ts=2 sw=2 ai si et:
