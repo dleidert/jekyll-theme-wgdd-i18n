@@ -3,12 +3,9 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
-  title: >-
-    This is the english site's title.
-  subtitle: >-
-    This is the english site's subtitle.
-  description: >-
-    This is the english site's description.
+  title: "This is the english site's title."
+  subtitle: "This is the english site's subtitle."
+  description: "This is the english site's description."
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -21,12 +18,9 @@ en-AU:
 # German / Deutsch
 # ----------------
 de: &DEFAULT_DE
-  title: >-
-    Das ist der deutsche Titel.
-  subtitle: >-
-    Das ist der deutsche Untertitel.
-  description: >-
-    Das ist die deutsche Beschreibung der Seite.
+  title: "Das ist der deutsche Titel."
+  subtitle: "Das ist der deutsche Untertitel."
+  description: "Das ist die deutsche Beschreibung der Seite."
 de-DE:
   <<: *DEFAULT_DE
 de-AT:
@@ -43,6 +37,7 @@ de-LU:
 # Italian
 # -------
 it: &DEFAULT_IT
+  title: "Foo"
 it-IT:
   <<: *DEFAULT_IT
 
