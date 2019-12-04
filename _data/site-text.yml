@@ -6,6 +6,8 @@ en: &DEFAULT_EN
   title: "This is the english site's title."
   subtitle: "This is the english site's subtitle."
   description: "This is the english site's description."
+  language: English
+  read: Read this in English
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -21,6 +23,8 @@ de: &DEFAULT_DE
   title: "Das ist der deutsche Titel."
   subtitle: "Das ist der deutsche Untertitel."
   description: "Das ist die deutsche Beschreibung der Seite."
+  language: Deutsch
+  read: In Deutsch lesen
 de-DE:
   <<: *DEFAULT_DE
 de-AT:
@@ -38,6 +42,7 @@ de-LU:
 # -------
 it: &DEFAULT_IT
   title: "Foo"
+  language: Italiano
 it-IT:
   <<: *DEFAULT_IT
 
