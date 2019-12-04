@@ -1,6 +1,10 @@
 title: "Site title" # _data/site-text.yml
 description: "Site description" # _data/site-text.yml
 email: "webmaster@wgdd.org"
+locales:
+  - en
+  - de
+  - it
 
 markdown: kramdown
 
@@ -11,6 +15,7 @@ defaults:
     values:
       lang: "en"
       layout: default
+      permalink: /:path/:basename/
   - scope:
       path: "de"
     values:
@@ -19,6 +24,21 @@ defaults:
       path: "it"
     values:
       lang: "it"
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /en/:year/:month/:title/
+  - scope:
+      path: "de"
+      type: posts
+    values:
+      permalink: /de/:year/:month/:title/
+  - scope:
+      path: "it"
+      type: posts
+    values:
+      permalink: /it/:year/:month/:title/
 
 plugins:
   - jekyll-redirect-from
