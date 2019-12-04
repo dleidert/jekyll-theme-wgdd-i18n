@@ -1,0 +1,57 @@
+en:
+  main:
+    - title: Main
+      url: /en/
+      description: Main page
+    - title: Sample posts
+      url: /en/samples/
+    - title: About
+      url: /en/about/
+      desciption: About page
+  about:
+    - title: Impressum
+      url: /en/legal/
+      description: Legal notes
+    - title: Privacy
+      url: /en/privacy/
+      description: Privacy disclaimer
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+de:
+  main:
+    - title: Start
+      url: /de/
+      description: Startseite
+    - title: Beispielposts
+      url: /de/beispiele/
+    - title: Über
+      url: /de/ueber/
+      desciption: Über dieses Seite
+  about:
+    - title: Impressum
+      url: /de/impressum/
+      description: Impressum
+    - title: Datenschutz
+      url: /de/datenschutz/
+      description: Datenschutzerklärung
+de-DE:
+  <<: *DEFAULT_DE
+de-AT:
+  <<: *DEFAULT_DE
+de-CH:
+  <<: *DEFAULT_DE
+de-BE:
+  <<: *DEFAULT_DE
+de-LI:
+  <<: *DEFAULT_DE
+de-LU:
+  <<: *DEFAULT_DE
+
+# vim: set tw=79 ts=2 sw=2 ai si et:
