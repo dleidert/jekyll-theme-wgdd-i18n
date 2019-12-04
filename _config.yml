@@ -1,4 +1,5 @@
-title: "Site title"
+title: "Site title" # _data/site-text.yml
+description: "Site description" # _data/site-text.yml
 email: "webmaster@wgdd.org"
 
 markdown: kramdown
