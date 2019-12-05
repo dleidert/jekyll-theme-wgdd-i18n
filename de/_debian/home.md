@@ -6,6 +6,8 @@ description: >-
   Debian Entwickler. Hier möchte ich über meine Reise, meinen Beitrag zu Debian
   und meine Erfahrungen berichten.
 permalink: /de/debian/
+translation:
+  - '/en/_debian/home.md'
 ---
 
 2002 habe ich [Debian] erstmalig installiert und bin seitdem dabei geblieben.
