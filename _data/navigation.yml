@@ -15,14 +15,6 @@ en:
     - title: Privacy
       url: /en/privacy/
       description: Privacy disclaimer
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
 
 de:
   main:
@@ -41,17 +33,5 @@ de:
     - title: Datenschutz
       url: /de/datenschutz/
       description: Datenschutzerklärung
-de-DE:
-  <<: *DEFAULT_DE
-de-AT:
-  <<: *DEFAULT_DE
-de-CH:
-  <<: *DEFAULT_DE
-de-BE:
-  <<: *DEFAULT_DE
-de-LI:
-  <<: *DEFAULT_DE
-de-LU:
-  <<: *DEFAULT_DE
 
 # vim: set tw=79 ts=2 sw=2 ai si et:
