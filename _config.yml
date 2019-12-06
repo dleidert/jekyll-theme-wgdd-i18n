@@ -13,6 +13,12 @@ locales:
 
 markdown: kramdown
 
+collections:
+  pages:
+    output: true
+  debian:
+    output: true    
+
 defaults:
   #languages
   - scope:
@@ -21,32 +27,57 @@ defaults:
       lang: "en"
       locale: "en-US"
       layout: default
-      permalink: /:path/:basename/
   - scope:
-      path: "de"
+      path: "*/de"
     values:
       lang: "de"
       locale: "de-DE"
   - scope:
-      path: "it"
+      path: "*/it"
     values:
       lang: "it"
       locale: "it-IT"
+  # posts      
   - scope:
       path: ""
       type: posts
     values:
       permalink: /en/:year/:month/:title/
   - scope:
-      path: "de"
+      path: "_posts/de"
       type: posts
     values:
       permalink: /de/:year/:month/:title/
   - scope:
-      path: "it"
+      path: "_posts/it"
       type: posts
     values:
       permalink: /it/:year/:month/:title/
+  # pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      permalink: /:path/
+  # collections
+  - scope:
+     path: ""
+     type:
+        - debian
+    values:
+      permalink: /en/:collection/:name/
+  - scope:
+      path: "*/de"
+      type:
+        - debian
+    values:
+      permalink: /de/:collection/:name/
+  - scope:
+      path: "*/it"
+      type:
+        - debian
+    values:
+      permalink: /it/:collection/:name/
 
 plugins:
   - jekyll-redirect-from
