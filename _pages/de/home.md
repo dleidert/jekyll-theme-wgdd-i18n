@@ -2,6 +2,7 @@
 title: Hallo Welt
 description: >-
   Das ist eine Beschreibung der Seite in Deutsch.
+permalink: /de/
 ---
 
 Hallo Welt.

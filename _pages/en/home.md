@@ -2,6 +2,7 @@
 title: Hello World
 description: >-
   This is a site description in English.
+permalink: /en/
 redirect_from:
   - /index.html
 ---

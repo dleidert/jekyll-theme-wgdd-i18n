@@ -5,6 +5,7 @@ description: >-
   2005 übernahm ich das erste Paket und seit 2012 bin ich offiziell
   Debian Entwickler. Hier möchte ich über meine Reise, meinen Beitrag zu Debian
   und meine Erfahrungen berichten.
+permalink: /de/debian/
 translation:
   - '/en/_debian/home.md'
 ---

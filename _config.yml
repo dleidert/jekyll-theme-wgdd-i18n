@@ -62,20 +62,17 @@ defaults:
   # collections
   - scope:
      path: ""
-     type:
-        - debian
+     type: debian
     values:
       permalink: /en/:collection/:name/
   - scope:
       path: "*/de"
-      type:
-        - debian
+      type: debian
     values:
       permalink: /de/:collection/:name/
   - scope:
       path: "*/it"
-      type:
-        - debian
+      type: debian
     values:
       permalink: /it/:collection/:name/
 
