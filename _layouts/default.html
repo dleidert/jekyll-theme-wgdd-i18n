@@ -7,20 +7,32 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}">
 
-    {% include masthead.html %}
+    <header id="header" class="page__header">
+      {% include header.html %}
+      {% include header/custom.html %}
+    </header>
+
+    <nav id="site-nav" class="site__navigation">
+      {% include navigation/site.html %}
+      {% include navigation/custom.html %}
+    </nav>
 
     <div class="initial-content">
-      <main>
+      <main id="main" class="page__main">
         {{ content }}
+        {% include main/custom.html %}
       </main>
+
+      <aside id="aside" class="page__aside">
+        {% include aside.html %}
+        {% include aside/custom.html %}
+      </aside>
     </div>
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer.html %}
-        {% include footer/custom.html %}
-      </footer>
-    </div>
+    <footer id="footer" class="page__footer">
+      {% include footer.html %}
+      {% include footer/custom.html %}
+    </footer>
 </html>
 
 {%- comment %} vim: set tw=79 ts=2 sw=2 ai si et: {% endcomment -%}
